@@ -101,15 +101,16 @@ nav li a:hover{
         border: 1px solid greenyellow;
         border-radius: 20%;
     }
-    .bar{
-        color: rgba(180, 45, 214, 0.753);
-        font-size: 25px;
+    .mobicon{
+        color: rgb(131, 95, 18);
+        font-size: 18px;
         font-family: $font1;
         width: 90%;
         margin: auto;
         max-width: 600px;
         padding: 0px;
         float: left;
+        box-shadow: 0 0 15px gray;
     }
     .notmobile{
         display: none !important;
@@ -120,6 +121,9 @@ nav li a:hover{
         text-transform: uppercase;
         display: block;
         text-shadow: 0 0 15px black
+    }
+    .moblist{
+        list-style: none !important;
     }
     .bar li{
         display: inline-block;
@@ -154,7 +158,8 @@ nav li a:hover{
             margin-top: 30px;
             color: rgb(209, 176, 99);
     }
-    .principal{
+    .principal-tienda{
+        height: 900px;
         background-color: rgba(238, 130, 238, 0.247);
         background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
     }
@@ -183,7 +188,7 @@ nav li a:hover{
         display: none;
     }
     .list-group-item {
-        color: #aa04d4c5;
+        color: rgb(131, 95, 17);
         font-size: 1rem;
         font-family: $font2;
         font-weight: 900;
@@ -216,6 +221,24 @@ nav li a:hover{
 }
 .imgbox img{
     width: 100%;
+}
+.list-group-item--n2{
+    font-size: 30px;
+    width: 85%;
+    text-decoration: overline;
+}
+.results{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+}
+.mod{
+    right: 2px;
+    bottom: 2px;
+    float: right;
+    width: 15%;
+    font-size: 0.85rem;
 }
 }
 @media only screen and (min-width: 480px){
@@ -294,7 +317,7 @@ nav li a:hover{
     }
             p{
             font-family: $font1;
-            font-size: 2rem;
+            font-size: 1.2rem;
             text-align: center;
             margin-top: 30px;
             color: rgb(209, 176, 99);
@@ -323,7 +346,7 @@ nav li a:hover{
         display: none;
     }
     .list-group-item {
-        color: #aa04d4c5;
+        color: rgb(131, 95, 17);
         font-size: 1.5rem;
         font-family: $font2;
         font-weight: 900;
@@ -347,7 +370,7 @@ nav li a:hover{
         float: left;
         padding-right: 12px;
         color: rgb(109, 44, 129);
-        font-size: 18px;
+        font-size: 16px;
     }
     .pie a i{
         float: right;
@@ -362,6 +385,24 @@ nav li a:hover{
 .imgbox img{
     width: 100%;
 }
+.list-group-item--n2{
+    font-size: 40px;
+    width: 85%;
+    text-decoration: overline;
+}
+.results{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+}
+.mod{
+    right: 2px;
+    bottom: 2px;
+    float: right;
+    width: 15%;
+    font-size: 1.2rem;
+}
 }
 @media only screen and (min-width: 576px){
     .notmobile{
@@ -371,12 +412,33 @@ nav li a:hover{
         display: none;
     }
     .list-group-item {
-        color: #aa04d4c5;
+        color: rgb(131, 95, 17);
         font-size: 1.8rem;
         font-family: $font2;
         font-weight: 900;
         text-transform: uppercase;
         cursor: unset !important;
+    }
+    .refvid{
+        font-size: 22px;
+    }
+    .list-group-item--n2{
+        font-size: 40px;
+        width: 85%;
+        text-decoration: overline;
+    }
+    .results{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: center;
+    }
+    .mod{
+        right: 2px;
+        bottom: 2px;
+        float: right;
+        width: 15%;
+        font-size: 1.4rem;
     }
 }
 @media only screen and (min-width: 760px){
@@ -445,11 +507,11 @@ nav li a:hover{
             video{
             display: flex;
             margin-left: 1rem;
-            width: 60%;
+            width: 50%;
     }
             p{
             font-family: $font1;
-            font-size: 2rem;
+            font-size: 25px !important;
             text-align: center;
             margin-top: 30px;
             color: rgb(209, 176, 99);
@@ -467,7 +529,7 @@ nav li a:hover{
         color: rgb(118, 3, 185);
     }
     .list-group-item {
-        color: #aa04d4c5;
+        color: rgb(131, 95, 17);
         font-size: 2rem;
         font-family: $font2;
         font-weight: 900;
@@ -491,7 +553,7 @@ nav li a:hover{
     }
     .pie i{
         float: left;
-        padding-right: 20px;
+        padding-right: 25px;
         color: rgb(109, 44, 129);
         font-size: 18px;
     }
@@ -543,6 +605,24 @@ nav li a:hover{
     }
     .imgbox img{
         width: 100%;
+    }
+    .list-group-item--n2{
+        font-size: 40px;
+        width: 85%;
+        text-decoration: overline;
+    }
+    .results{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: center;
+    }
+    .mod{
+        right: 2px;
+        bottom: 2px;
+        float: right;
+        width: 15%;
+        font-size: 1.6rem;
     }
 }
 @media only screen and (min-width: 1160px){
@@ -604,7 +684,7 @@ nav li a:hover{
     }
             p{
             font-family: $font1;
-            font-size: 3rem;
+            font-size: 3rem !important;
             text-align: center;
             margin-top: 30px;
             color: rgb(209, 176, 99);
@@ -625,7 +705,7 @@ nav li a:hover{
         color: rgb(118, 3, 185);
     }
     .list-group-item {
-        color: #aa04d4c5;
+        color: rgb(131, 95, 17)5;
         font-size: 2rem;
         font-family: $font2;
         font-weight: 900;
@@ -708,6 +788,21 @@ nav li a:hover{
     }
     .imgbox img{
         width: 100%;
+    }
+    .list-group-item--n2{
+        font-size: 40px;
+        width: 85%;
+        text-decoration: overline;
+    }
+    .results{
+        display: flex;
+    }
+    .mod{
+        right: 2px;
+        bottom: 2px;
+        float: right;
+        width: 15%;
+        font-size: 2rem;
     }
 }
 .galeria{
@@ -794,18 +889,11 @@ $mods: (
         text-transform: none;
     }
 }
-.list-group-item--n2{
-    font-size: 40px;
-    width: 90%;
-    text-decoration: overline;
+.row{
+    width: 98%;
+    margin: auto;
+    justify-content: center;
 }
-.results{
-    display: flex;
-}
-.mod{
-    right: 2px;
-    bottom: 2px;
-    float: right;
-    width: 10%;
-    font-size: 2rem;
+.pie i:hover{
+    color: rgb(0, 119, 255)
 }
